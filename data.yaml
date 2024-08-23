@@ -1,0 +1,14 @@
+
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['incorrect', 'perfect', 'processing']
+
+roboflow:
+  workspace: object-detection-pl7ef
+  project: cropway
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/object-detection-pl7ef/cropway/dataset/1
